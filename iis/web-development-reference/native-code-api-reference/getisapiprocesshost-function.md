@@ -2,8 +2,17 @@
 title: "GetIsapiProcessHost Function"
 ms.date: "10/07/2016"
 ms.assetid: df43ddf4-ec60-42a3-2dd5-f1738ffbb8ad
+api_name:
+  - GetIsapiProcessHost
+api_location:
+  - webengine.dll
+api_type:
+  - "COM"
+topic_type:
+  - apiref
 ---
 # GetIsapiProcessHost Function
+
 Retrieves a reference to the process model host.  
   
 ## Syntax  
