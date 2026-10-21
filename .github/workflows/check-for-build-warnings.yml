@@ -11,6 +11,6 @@ jobs:
     name: Look for build warnings
     runs-on: ubuntu-latest
     steps:
-    - uses: dotnet/docs-actions/actions/status-checker@main
+    - uses: dotnet/docs-actions/actions/status-checker@77fe7c19e2849a5460347b612343a1832f6a23e2 # main
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
