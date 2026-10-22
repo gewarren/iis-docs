@@ -1,16 +1,18 @@
 name: 'Status checker'
 
 on: 
-  pull_request_target:
+  pull_request:
     types: [opened, synchronize, reopened]
     branches-ignore:
       - live
 
 jobs:
   status_checker_job:
+    permissions:
+      pull-requests: write
     name: Look for build warnings
     runs-on: ubuntu-latest
     steps:
-    - uses: dotnet/docs-actions/actions/status-checker@77fe7c19e2849a5460347b612343a1832f6a23e2 # main
+    - uses: dotnet/docs-actions/status-checker@77fe7c19e2849a5460347b612343a1832f6a23e2 # main
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
