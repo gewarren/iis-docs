@@ -1,5 +1,5 @@
 ---
-title: "Installing IIS 8.5 on Windows Server 2012 R2"
+title: "Install IIS 8.5 on Windows Server 2012 R2"
 author: rick-anderson
 description: "This content describes how to install Internet Information Services (IIS) 8.5 on Windows Server 2012 R2 using Server Manager, DISM, or PowerShell."
 ms.date: 09/09/2013
@@ -7,9 +7,9 @@ ms.assetid: 0bdb99f5-43ee-4784-b7f4-d4f52b1949ad
 msc.legacyurl: /learn/install/installing-iis-85/installing-iis-85-on-windows-server-2012-r2
 msc.type: authoredcontent
 ---
-# Installing IIS 8.5 on Windows Server 2012 R2
+# Install IIS 8.5 on Windows Server 2012 R2
 
-This document describes how to install Internet Information Services (IIS) 8.5 on Windows Server® 2012 R2. IIS is the Web server role in Windows Server 2012 R2. The Windows Server 2012 R2 operating system has all the IIS features needed to support the hosting of Web content in production environments. Windows 8 also includes IIS features, but feature availability depends on the operating system version.
+This article describes how to install Internet Information Services (IIS) 8.5 on Windows Server® 2012 R2. IIS is the Web server role in Windows Server 2012 R2. The Windows Server 2012 R2 operating system has all the IIS features needed to support the hosting of Web content in production environments. Windows 8 also includes IIS features, but feature availability depends on the operating system version.
 
 > [!NOTE]
 > You can use the procedures in this document to install IIS 8.0 or IIS 8.5.
@@ -29,7 +29,7 @@ For more information on these features, see [What's New in IIS 8.5](../../get-st
 
 For information on new features in IIS 8.0, see [What's New in IIS 8.0](../../get-started/whats-new-in-iis-8/index.md).
 
-## Before You Begin
+## Before you begin
 
 Ensure that you have administrative user rights on the computer on which you plan to install IIS 8.5. Note that by default, you do not have administrative user rights if you are logged on as a user other than as the built-in administrator, even if you were added to the local Administrators group on the computer.
 
